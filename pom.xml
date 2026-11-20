@@ -24,8 +24,50 @@
     	<artifactId>selenium-java</artifactId>
     	<version>4.53.0</version>
 	</dependency>
+	
+	
+	
+	
+	
+	
+	
+	<dependency>
+    	<groupId>dev.reportinglabs</groupId>
+    	<artifactId>reporting-labs-selenium</artifactId>
+    	<version>0.1.35</version>
+	</dependency>
+	<dependency>
+    	<groupId>dev.reportinglabs</groupId>
+    	<artifactId>reporting-labs-core</artifactId>
+    	<version>0.1.35</version>
+	</dependency>
+	<dependency>
+    	<groupId>dev.reportinglabs</groupId>
+    	<artifactId>reporting-labs-testng</artifactId>
+    	<version>0.1.35</version>
+	</dependency>
+	<dependency>
+    	<groupId>dev.reportinglabs</groupId>
+    	<artifactId>reporting-labs-parent</artifactId>
+    	<version>0.1.35</version>
+    	<type>pom</type>
+	</dependency>
+	<dependency>
+    	<groupId>dev.reportinglabs</groupId>
+    	<artifactId>reporting-labs-cucumber</artifactId>
+    	<version>0.1.35</version>
+	</dependency>
+	<dependency>
+    	<groupId>dev.reportinglabs</groupId>
+    	<artifactId>reporting-labs-rest-assured</artifactId>
+    	<version>0.1.35</version>
+	</dependency>
+	<dependency>
+    	<groupId>dev.reportinglabs</groupId>
+    	<artifactId>reporting-labs-playwright</artifactId>
+    	<version>0.1.35</version>
+	</dependency>
   </dependencies>
-
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
