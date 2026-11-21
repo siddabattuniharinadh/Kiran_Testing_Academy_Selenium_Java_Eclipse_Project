@@ -32,10 +32,12 @@ public class Locators
 		driver.findElement(By.partialLinkText("languages…")).click();
 		System.out.println("more languages clicked");
 		
-		try {
+		try 
+		{
 			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+		} 
+		catch (InterruptedException e) 
+		{
 			e.printStackTrace();
 		}
 		driver.quit();
