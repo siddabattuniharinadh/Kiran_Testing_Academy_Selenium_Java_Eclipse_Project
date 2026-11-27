@@ -36,13 +36,12 @@ local.properties
 ############
 ## Maven
 ############
-#target/
-target/*
-!target/reporting-labs/
-!target/reporting-labs/**
+#target/*
+#!target/reporting-labs/
+#!target/reporting-labs/**
+#reporting-labs.history.json
 
-
-reporting-labs.history.json
+target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
