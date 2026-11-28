@@ -16,6 +16,17 @@ public class Java2
 		
 		
 		
+		if((a>b)||(a>=2))
+		{
+			System.out.println("True");
+		}
+		if((a<b)&&(b>2))
+		{
+			System.out.println("True");
+		}
+		
+		
+		
 		
 	}
 }
